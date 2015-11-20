@@ -1,0 +1,20 @@
+{
+  "locals": {
+    "url": "http://localhost:8080",
+    "name": "jelkoarnds.com",
+    "owner": "Jelko Arnds",
+    "description": "a space on the web"
+  },
+  "plugins": [
+    "./node_modules/wintersmith-swig/plugin.coffee"
+  ],
+  "require": {
+    "moment": "moment",
+    "_": "underscore",
+    "typogr": "typogr"
+  },
+  "markdown": {
+    "smartLists": true,
+    "smartypants": true
+  }
+}

@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+	<head> 
+		<title>jelkoarnds.com</title>
+		<meta name="viewport" content="width=device-width">
+		<link type="text/css" href="/static/css/style.css" rel="stylesheet"></link>
+		<script type="text/javascript" src="/static/bower_components/jquery/dist/jquery.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$(".additional").hide()
+				$("a.to-additional").click(function() {
+					$(document).find($(this).attr("href")).show()
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<!--<h1>{{ page.title }}</h1>-->
+		{{ page.html }}
+		<!--<section class="start"><a href="#its-jelko" class="to-additional">I</a> <span>make</span> <a href="#projects" class="to-additional">useful and beautiful stuff</a>. <span>Currently at</span> <a href="#espi" class="to-additional">Edenspiekermann</a> <span>in</span> <a href="#amsterdam" class="to-additional">Amsterdam</a>.</section>
+		<section class="additional" id="its-jelko">It's <a href="#contact" class="to-additional">Jelko</a>. An ambitious maker and interaction designer. Nice to meet you!</section>
+		<section class="additional" id="contact">Tweet me at <a href="http://twitter.com/jelkoarnds">@jelkoarnds</a>.</section>
+		<section class="additional" id="projects"><p>recent projects</p>
+			<ul>
+				<li><a href="wall.html">communication wall</a></li>
+				<li><a href="#contact">non-visual navigation device</a></li>
+				<li><a href="#contact">perception experiment in VR</a></li>
+				<li><a href="#contact">intranet web-app</a></li>
+			</ul>
+		</section>
+		<section class="additional" id="espi"><p>I am doing interaction design at Edenspiekermann. It's great.</p><a href="espi" class="more"></a></section>-->
+	</body>
+</html>
