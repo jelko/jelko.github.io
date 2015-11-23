@@ -13,8 +13,7 @@
     "_": "underscore",
     "typogr": "typogr"
   },
-  "markdown": {
-    "smartLists": true,
-    "smartypants": true
-  }
+  "ignore": [
+  	".DS_Store"
+  ]
 }

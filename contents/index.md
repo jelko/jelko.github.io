@@ -3,23 +3,20 @@ title: A place on the web
 template: index.html
 ---
 
-[I][1] make [useful and beautiful stuff][2]. Currently at [Edenspiekermann][3] in [Amsterdam][4].
+[Jelko](#its-me) makes [useful and beautiful stuff](#projects). Currently at [Edenspiekermann](#espi) in Amsterdam.
 
-It's Jelko. An ambitious maker and interaction designer. Nice to meet you!
+<a name="its-me"></a>
 
-Tweet me at [@jelkoarnds][5].
+It's [@jelkoarnds](http://twitter.com/jelkoarnds). I am an ambitious maker and interaction designer.
 
-recent projects
+<a name="espi"></a>
 
-* [communication wall][10]
-* non-visual navigation device
-* perception experiment in VR
-* intranet web-app
-* I am doing interaction design at Edenspiekermann. It's great.
+Right now I spend some awesome - sometimes challenging - time at [Edenspiekermann](http://edenspiekermann.com). Always trying to evolve and push the envelope.
 
-[1]: #its-me
-[2]: #projects
-[3]: #espi
-[4]: #amsterdam
-[5]: http://twitter.com/jelkoarnds
-[10]: /projects/janun
+<a name="projects"></a>
+
+* [communication wall](/projects/wall)
+* [non-visual navigation device](/projects/navigation)<!--* [perception experiment in VR](/projects/VR-experiment)-->
+* [web-app for schools](/projects/web-app)
+
+[Contact & Legal](/contact-and-legal/)
