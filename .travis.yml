@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - "0.10"
+before_install:
+  - npm install wintersmith
+script:
+  - wintersmith build
+after_success: 
+  - bash gh-pages-deploy.sh
+branches:
+  only:
+    wintersmith
+env: 
+  global:
+    secure: "hGQiaB48swck3VNG/lHaq6zNxSKkpKqkPQAxkO/XuJGXodrc4rdZP1GuS9MJxKETlplpRu9/vN+1t+tlTVA3G8r4wogDbvJKmvE7f913YsaCZPWb8W+o0d9/MoI+p8fTebjqIWX1o77z1nY5kIHtAiMg+VKzeuAdXlvd7sB8f9MEFHPr9/9xKm0dF84/wjhct0JZH3yf6LZAw1N9+0DJ8nqGZbBqmeY5aIBaQ026nbVFzemwGJuyi0MVeGMLeOLmJAjFi6OI/VYaK08d8YqpdVBOQWQclehdxjm0wEeqP4WsbULSTnEKLbc5wMbFzn4H1Fp1cn79I6LkvcwSie2E5lf5C4yA41ewkra8tHvNNfTTlOAzFSbw+w7b4aka2owuahJDKTq4dGnQH73YmOjUQFkSI93t6ZkkTkdzNK8ipbhoeY9AteWDQqp522w62US2Py55BgTd7gGv+rGlhXNw2qcI/03FVYBQh3Em0YvIDL6fnkBfgpJaNw9z1/jN8R2plRa6pEkLcoeG81qJGaGydyuhcE4mL7rgUyoEJhqtURf/9KoosJVgWDFI7AFuuYJwxzyBhBIDLxc9XEcSlCEnbbRa1eFK6/sJ57AKXL4qGAj2UKtMATOOTyUHoZw4soDFP1xGUGhh2BbeVMUK+N0J5I/1TlRvwC0A6BqWV1tVa18="
