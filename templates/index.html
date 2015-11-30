@@ -11,9 +11,9 @@
 			$(function() {
 				$("p > a[name]").parent().next().toggleClass('hidden')
 				$("p > a[name]").parent().toggleClass('hidden')
-				$("p > a[href^='/#']").click(function(e) {
-					$(document).find("p > a[name='" + $(this).attr("href").substring(2) + "']").parent().next().toggleClass('hidden')
-					$(document).find("p > a[name='" + $(this).attr("href").substring(2) + "']").parent().toggleClass('hidden')
+				$("p > a[href^='#']").click(function(e) {
+					$(document).find("p > a[name='" + $(this).attr("href").substring(1) + "']").parent().next().toggleClass('hidden')
+					$(document).find("p > a[name='" + $(this).attr("href").substring(1) + "']").parent().toggleClass('hidden')
 					e.preventDefault()
 				})
 			})
