@@ -7,7 +7,7 @@ template: index.html
 
 <a name="its-me"></a>
 
-It's [@jelkoarnds](http://twitter.com/jelkoarnds). I am an ambitious maker and interaction designer.
+[I](http://twitter.com/jelkoarnds) am an ambitious maker and interaction designer.
 
 <a name="espi"></a>
 
