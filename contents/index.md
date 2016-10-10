@@ -4,6 +4,7 @@ template: index.html
 ---
 
 [Jelko](#its-me) makes [useful and beautiful stuff](#projects). ~~Currently at [Edenspiekermann](#espi) in Amsterdam.~~
+
 Working on my [thesis](http://thisisathesis.jelkoarnds.com/): exploring human interaction and exploring interfaces in the world around us.
 
 [Say hello!](http://twitter.com/jelkoarnds)
