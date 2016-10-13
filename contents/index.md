@@ -21,4 +21,8 @@ He is an ambitious maker and interaction designer based. Studying [digital media
 
 (working on more documentation at the moment.)
 
+writings
+
+* [don't take no for an answer](https://medium.com/@jelkoarnds/dont-take-no-for-an-answer-c9428ccd658e) - thoughts on dealing with rejection
+
 [Contact & Legal](/contact-and-legal/)
