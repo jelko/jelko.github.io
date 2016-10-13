@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+	<head> 
+		<title>jelkoarnds.com</title>
+		<meta name="viewport" content="width=device-width">
+		<link rel="icon" href="/static/img/circle.png">
+		<link href='https://fonts.googleapis.com/css?family=Fira+Mono:400,700' rel='stylesheet' type='text/css'>
+		<link type="text/css" href="/static/css/style.css" rel="stylesheet"></link>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$("p > a[name]").parent().next().toggleClass('hidden')
+				$("p > a[name]").parent().toggleClass('hidden')
+				$("p > a[href^='#']").click(function(e) {
+					$(document).find("p > a[name='" + $(this).attr("href").substring(1) + "']").parent().next().toggleClass('hidden')
+					$(document).find("p > a[name='" + $(this).attr("href").substring(1) + "']").parent().toggleClass('hidden')
+					e.preventDefault()
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<!--<h1>Untitled</h1>-->
+		<h1 id="making-school-live-easier">Making school live easier</h1>
+<p>Design &amp; Development of a web application that helps teachers to organize stuff at school.</p>
+<p>2011 - 2013</p>
+<p>This one was extensive! My old high school had a web application for internal communication and coordination between teachers. The old »Intranet« was technically unsupportable and buggy. I got asked to develop a new version of the application. I did. </p>
+<h2 id="ui-design">UI Design</h2>
+<p>The UI design went through multiple iterations. Below you can see a one of the latest.</p>
+<p><img src="/projects/web-app/klassenarbeiten-01_browser.png" alt="exam management">
+<img src="/projects/web-app/material-04b_browser.png" alt="material booking">
+<img src="/projects/web-app/display-login-01_browser.png" alt="remote display auth"></p>
+<h2 id="code-functions">Code &amp; Functions</h2>
+<p>After a failed try with PHP, I quickly decided to build the entire application from the ground up with Django (which was new to me at the time). This turned out to be a very good decision.</p>
+<p>I build the application in a modular approach. The developed modules are:</p>
+<ul>
+<li>Substitution timetable</li>
+<li>Exam management</li>
+<li>Room and device booking</li>
+<li>Calendar (with Exchange support)</li>
+<li>Remote display UI &amp; Client for screens in the school building</li>
+<li>External Auth (with existing IT systems)</li>
+<li>The front-end was developed using HTML 5, CSS (with Bootstrap), JS (with jQuery).</li>
+<li>Later I built some of the interactive elements, for example * the calendar UI with Backbone.js and a own server-side API.</li>
+</ul>
+<p>The remote display client was build as a HTML 5 app as well. We used LocalStorage to be able to display information even if the network is down.</p>
+<p>The application got deployed on a nginx and gunicorn stack. It has arround 1500 active users.</p>
+<h2 id="what-i-did">What I did</h2>
+<ul>
+<li>UI design</li>
+<li>front-end development</li>
+<li>back-end development</li>
+<li>deployment</li>
+</ul>
+<h2 id="tools-used">Tools used</h2>
+<ul>
+<li>Adobe Photoshop</li>
+<li>Django (Python Framework)</li>
+<li>Twitter Bootstrap</li>
+<li>Backbone.js</li>
+<li>jQuery</li>
+<li>and lots more</li>
+</ul>
+
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-63575087-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+	</body>
+</html>

@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+	<head> 
+		<title>jelkoarnds.com</title>
+		<meta name="viewport" content="width=device-width">
+		<link rel="icon" href="/static/img/circle.png">
+		<link href='https://fonts.googleapis.com/css?family=Fira+Mono:400,700' rel='stylesheet' type='text/css'>
+		<link type="text/css" href="/static/css/style.css" rel="stylesheet"></link>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$("p > a[name]").parent().next().toggleClass('hidden')
+				$("p > a[name]").parent().toggleClass('hidden')
+				$("p > a[href^='#']").click(function(e) {
+					$(document).find("p > a[name='" + $(this).attr("href").substring(1) + "']").parent().next().toggleClass('hidden')
+					$(document).find("p > a[name='" + $(this).attr("href").substring(1) + "']").parent().toggleClass('hidden')
+					e.preventDefault()
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<!--<h1>A place on the web</h1>-->
+		<p><a href="#its-me">Jelko</a> makes <a href="#projects">useful and beautiful stuff</a>. <del>Currently at <a href="#espi">Edenspiekermann</a> in Amsterdam.</del></p>
+<p>Working on my <a href="http://thisisathesis.jelkoarnds.com/">thesis</a>: exploring human interaction and exploring interfaces in the world around us.</p>
+<p><a href="http://twitter.com/jelkoarnds">Say hello!</a></p>
+<p><a name="its-me"></a></p>
+<p>He is an ambitious maker and interaction designer based. Studying <a href="http://digitalmedia-bremen.de/">digital media</a> and its implications on the world in Bremen.</p>
+<p><a name="projects"></a></p>
+<ul>
+<li><a href="/projects/wall">communication wall</a></li>
+<li><a href="/projects/navigation">non-visual navigation device</a><!--* [perception experiment in VR](/projects/VR-experiment)--></li>
+<li><a href="/projects/web-app">web-app for schools</a></li>
+</ul>
+<p>(working on more documentation at the moment.)</p>
+<p>writings</p>
+<ul>
+<li><a href="https://medium.com/@jelkoarnds/dont-take-no-for-an-answer-c9428ccd658e">don&#39;t take no for an answer</a> - thoughts on dealing with rejection</li>
+</ul>
+<p><a href="/contact-and-legal/">Contact &amp; Legal</a></p>
+
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-63575087-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+	</body>
+</html>

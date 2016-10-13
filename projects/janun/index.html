@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+	<head> 
+		<title>jelkoarnds.com</title>
+		<meta name="viewport" content="width=device-width">
+		<link rel="icon" href="/static/img/circle.png">
+		<link href='https://fonts.googleapis.com/css?family=Fira+Mono:400,700' rel='stylesheet' type='text/css'>
+		<link type="text/css" href="/static/css/style.css" rel="stylesheet"></link>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$("p > a[name]").parent().next().toggleClass('hidden')
+				$("p > a[name]").parent().toggleClass('hidden')
+				$("p > a[href^='#']").click(function(e) {
+					$(document).find("p > a[name='" + $(this).attr("href").substring(1) + "']").parent().next().toggleClass('hidden')
+					$(document).find("p > a[name='" + $(this).attr("href").substring(1) + "']").parent().toggleClass('hidden')
+					e.preventDefault()
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<!--<h1>making a new janun.de</h1>-->
+		<h1 id="a-new-website-for-janun">A new website for JANUN</h1>
+<p>Tools and communication for their activists &amp; members.</p>
+<p>In 2014 the nice people at JANUN, a non-profit environment action network, called me up and asked if I want to do the reconception and design on their website.</p>
+<h2 id="where-we-started">where we started</h2>
+<p>The original website got quite messy over the years. Lots and lots of new content piled up and never got organised. The navigation and information architecture got a little out of control. Additionally the visual design needed an urgent upgrade.</p>
+<p><img src="http://" alt="image"></p>
+<h2 id="what-we-wanted">what we wanted</h2>
+<p>Right before the project started JANUN redefined their corporate identity and created a new mission statement. One goal of the website is to deliver this new identity.</p>
+<p>JANUN has hundreds of volunteers and activists working for good courses all over the place. Another goal of the new site was to connect these people and give them all the information and tools they need.</p>
+<p>We started in mid-2014 with a requirements workshop. It came clear that there was a lot to improve. To get as much user feedback as early as we can we did a survey on the old website as well. A requirements list was compiled and I got started.</p>
+<h2 id="ui-design">UI Design</h2>
+<p>I developed a design, focusing on their brand color (green), simple typography and a clean layout. One of the key features is to distinguish between the regular website and the internal part for the team &amp; activists. I used color (green vs. red) to make the current module always visible to the user.</p>
+<p>The development is still under way. We plan to launch the site later this year.</p>
+<p><img src="http://" alt="image"></p>
+<h2 id="what-i-did">what I did</h2>
+<ul>
+<li>requirements analysis</li>
+<li>user study</li>
+<li>wireframes</li>
+<li>visual design</li>
+<li>(some) front-end development</li>
+</ul>
+<h2 id="tools-used">tools used</h2>
+<ul>
+<li>Sketch</li>
+<li>InVision</li>
+<li>Pivotal Tracker</li>
+<li>Redmine</li>
+</ul>
+
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-63575087-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+	</body>
+</html>

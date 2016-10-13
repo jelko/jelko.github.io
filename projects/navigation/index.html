@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+	<head> 
+		<title>jelkoarnds.com</title>
+		<meta name="viewport" content="width=device-width">
+		<link rel="icon" href="/static/img/circle.png">
+		<link href='https://fonts.googleapis.com/css?family=Fira+Mono:400,700' rel='stylesheet' type='text/css'>
+		<link type="text/css" href="/static/css/style.css" rel="stylesheet"></link>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$("p > a[name]").parent().next().toggleClass('hidden')
+				$("p > a[name]").parent().toggleClass('hidden')
+				$("p > a[href^='#']").click(function(e) {
+					$(document).find("p > a[name='" + $(this).attr("href").substring(1) + "']").parent().next().toggleClass('hidden')
+					$(document).find("p > a[name='" + $(this).attr("href").substring(1) + "']").parent().toggleClass('hidden')
+					e.preventDefault()
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<!--<h1>Untitled</h1>-->
+		<h1 id="discovering-a-natural-navigation-experience">discovering a natural navigation experience</h1>
+<p>2015</p>
+<p>We went on a search for a better way to navigate the city. We developed a concept &amp; prototype, called wayght. It got nominated for the »Hochschulpreis« (award) at University of the Arts.</p>
+<p><img src="http://" alt="image"></p>
+<p>With a self-experiment we studied the typical navigation methods in the city. Three members of the team went on a food walk from the university to a common destination (the tv tower of Bremen). Every one with a different method: 
+A) with a simple map
+B) with turn-by-turn navigation from Google Maps
+C) without anything, just vision and sense</p>
+<p>(Of course none of them knew the way to get there before hand.)</p>
+<p>Our Result: Wayfinding without any help (map or device) is the »easiest« and in our case the fastest as well. 
+More importantly though: this is the only way the person really discovers the environment and learns to orient themselves. We call this »natural navigation«.</p>
+<p>But what if you don&#39;t know the city at all? What if your destination is not as visible as a tv tower? How could we help someone to have a »natural navigation« experience?</p>
+<p>The goal we set was to develop a system or device that enables and supports natural navigation. It should be super-intuitive, non-visual and universal.
+We got inspired by one of the oldest navigation devices. The compass. Our device prototype is similar to a compass, which a user can sense by weight. A metal ball inside the device points at a fixed geographic direction (probably your destination).</p>
+<p>The prototype was build with a Arduino Uno, a 3D printed using a MakerBot and a servo motor.
+To set the geographic destination we designed a companion app.</p>
+<h2 id="what-we-ve-learned-from-it">What we&#39;ve learned from it</h2>
+<p>The idea of »natural navigation« has a lot of merit. We still believe that the current forms of navigation are too map and device focused and ultimately deliver a bad user experience, since the user is depended on the device.
+Our prototype however was far from perfect. The weight inside was not as sensible as it should have been. Maybe another medium or input method has to be found.</p>
+<p>The concept &amp; prototype was displayed in the interaction lab at »Hochschultage 2015«.</p>
+<h2 id="tools-used">Tools used</h2>
+<ul>
+<li>Arduino Uno</li>
+<li>MakerBot</li>
+<li>Servo Motor</li>
+<li>Sketch &amp; Photoshop</li>
+</ul>
+<p>I had a great time with this project in a great team with Florian Schröder, Niklas Barning and Laura Spillner. Focusing mainly on concept and UI design.</p>
+
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-63575087-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+	</body>
+</html>

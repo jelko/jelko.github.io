@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+	<head> 
+		<title>jelkoarnds.com</title>
+		<meta name="viewport" content="width=device-width">
+		<link rel="icon" href="/static/img/circle.png">
+		<link href='https://fonts.googleapis.com/css?family=Fira+Mono:400,700' rel='stylesheet' type='text/css'>
+		<link type="text/css" href="/static/css/style.css" rel="stylesheet"></link>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$("p > a[name]").parent().next().toggleClass('hidden')
+				$("p > a[name]").parent().toggleClass('hidden')
+				$("p > a[href^='#']").click(function(e) {
+					$(document).find("p > a[name='" + $(this).attr("href").substring(1) + "']").parent().next().toggleClass('hidden')
+					$(document).find("p > a[name='" + $(this).attr("href").substring(1) + "']").parent().toggleClass('hidden')
+					e.preventDefault()
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<!--<h1>Untitled</h1>-->
+		<h1 id="the-wall">The wall</h1>
+<p>Concept &amp; Prototype for a interactive, anonymous communication plattform.</p>
+<p>2014</p>
+<p>What would happen if you could talk to somebody by drawing on a web-connected whiteboard? I tried to find out by building one. </p>
+<h2 id="concept">Concept</h2>
+<p>The idea is quite simple: I wanted to build two (or more) whiteboards that are mirrored on each other. Users should be communicate with each other by drawing or leaving messages on the board.</p>
+<h2 id="using-a-wii-remote">Using a Wii remote</h2>
+<p>After a little research I came accross the other projects building a digital whiteboard with infrared pens and sensors. A common solution was to use the remote of a Wii (game console) as an infrared camera. Luckily <a href="http://uweschmidt.org/wiimote-whiteboard">someone awesome</a> had already build awesome software to translate the remote data into mouse movements and calibrate the input.</p>
+<h2 id="prototype">Prototype</h2>
+<p>The board itself was build using a regular projector and a rear projection screen. After some testing I found out that the screen does allow infrared light to go through. This allowed me to let the user stand on one side of the construction and place the projection and sensor on the other side. I build a super-simple infrared pen as an input device.</p>
+<p><img src="/projects/wall/wall_01.jpg" alt="">
+<img src="/projects/wall/wall_02.jpg" alt="">
+<img src="/projects/wall/wall_03.jpg" alt=""></p>
+<h2 id="connecting-two-boards">Connecting two boards</h2>
+<p>After I got my initial prototype working, I build a second one. With some basic Java and UDP networking I build a own drawing application. It allowed the user to draw using the infrared pen and see the result on screen. More importantly it sends the drawing across the network to the second display.</p>
+<h2 id="what-i-did">What I did</h2>
+<ul>
+<li>Concept</li>
+<li>Code</li>
+<li>Protoype</li>
+</ul>
+<h2 id="tools-used">Tools used</h2>
+<ul>
+<li>Projector</li>
+<li>rear projection screen</li>
+<li>Wii Infrared Sensor</li>
+<li>WiimoteWhiteboard</li>
+<li>Java</li>
+<li>self-build infrared »pen«</li>
+</ul>
+<p>This work was part of the class »Erlebniswelten« by Andrea Dilzer.</p>
+
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-63575087-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+	</body>
+</html>
