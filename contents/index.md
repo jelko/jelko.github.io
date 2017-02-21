@@ -3,13 +3,13 @@ title: A place on the web
 template: index.html
 ---
 
-[Jelko](#its-me) makes [useful and beautiful stuff](#projects). ~~Currently at Edenspiekermann in Amsterdam.~~
+[Jelko](#its-me) sometimes makes [useful and beautiful stuff](#projects). ~~Currently at Edenspiekermann in Amsterdam.~~ Observing and exploring (digital) media in Bremen.
 
 <a name="its-me"></a>
 
-He is an ambitious maker and interaction designer. Studying [digital media](http://digitalmedia-bremen.de/) and its implications on the world in Bremen.
+He is a maker and designer with an artistic aproach. Studying [digital media](http://digitalmedia-bremen.de/) at University of the arts, Bremen, DE.
 
-Working on my [thesis](http://thisisathesis.jelkoarnds.com/): exploring human interaction and interfaces in the world around us.
+#interaction #media #art #machines #products #watching #writing #waiting
 
 [Say hello!](http://twitter.com/jelkoarnds)
 
