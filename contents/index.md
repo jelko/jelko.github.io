@@ -3,25 +3,24 @@ title: A place on the web
 template: index.html
 ---
 
-[Jelko](#its-me) sometimes makes [useful and beautiful stuff](#projects). ~~Currently at Edenspiekermann in Amsterdam.~~ Observing and exploring (digital) media in Bremen.
+[Jelko](#its-me) makes things and thoughts.<br/>
+~~Currently at Edenspiekermann in Amsterdam. (2016)~~ Finally researching the phenomenon of [waiting]() and the impact of availabilty through digitality (2017).
 
 <a name="its-me"></a>
 
-He is a maker and designer with an artistic aproach. Studying [digital media](http://digitalmedia-bremen.de/) at University of the arts, Bremen, DE.
+He is a maker and designer with a technological understanding and humanistic curiosity. With a practical and artistic aproach, he tries to explrore the meaning and interplay of a time formed by digitality. He is researching the interaction of human and machine. Studying [digital media](http://digitalmedia-bremen.de/) at university of the arts.
 
-#interaction #media #art #machines #products #watching #writing #waiting
+<!--#interaction #media #art #machines #products #watching #writing #waiting-->
 
 [Say hello!](http://twitter.com/jelkoarnds)
-
 
 [Some Projects](#projects)
 
 <a name="projects"></a>
 
-* [communication wall](/projects/wall)
-* [non-visual navigation device](/projects/navigation)<!--* [perception experiment in VR](/projects/VR-experiment)-->
-* [web-app for schools](/projects/web-app)
-* working on more documentation
+* [TBIFM (2017)](/projects/TBIFM/)
+* [non-visual navigation device (2015)](/projects/navigation)<!--* [perception experiment in VR](/projects/VR-experiment)-->
+* [communication wall (2014)](/projects/wall)
 
 [Recently published notes](#writing)
 
