@@ -3,8 +3,9 @@ title: A place on the web
 template: index.html
 ---
 
-[Jelko](#its-me) makes things and thoughts.<br/>
-~~Currently at Edenspiekermann in Amsterdam. (2016)~~ Finally researching the phenomenon of [waiting]() and the impact of availabilty through digitality (2017).
+[Jelko](#its-me) makes things and thoughts.<br/><br/>
+~~Currently at Edenspiekermann in Amsterdam.~~<br/>
+Finally researching the phenomenon of [waiting]() and the impact of availabilty through digitality.
 
 <a name="its-me"></a>
 
