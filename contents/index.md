@@ -3,13 +3,14 @@ title: A place on the web
 template: index.html
 ---
 
-[Jelko](#its-me)<!-- makes things and thoughts.--><br/><br/>
-~~Currently at Edenspiekermann in Amsterdam.~~<br/>
-Finally researching the phenomenon of [waiting]() and the impact of availabilty through digitality.
+[Jelko](#its-me)<!-- makes things and thoughts.-->
 
 <a name="its-me"></a>
 
 He is a maker and designer with a technological understanding and humanistic curiosity. With a practical and artistic aproach, he tries to explrore the meaning and interplay of a time formed by digitality. He is researching the interaction of human and machine. Studying [digital media](http://digitalmedia-bremen.de/) at university of the arts Bremen.
+
+~~Currently at Edenspiekermann in Amsterdam.~~<br/>
+Finally researching the phenomenon of [waiting]() and the impact of availabilty through digitality.
 
 <!--#interaction #media #art #machines #products #watching #writing #waiting-->
 
