@@ -8,9 +8,8 @@ template: index.html
 
 The *Schietwettermaschine* (~ shit-weather-maschine) is a simulation of typical Bremen weather: Rain. The installation was part of a concept store that showcased Bremen in various ways and tied to deliver a authentic impression of the city to the visitor.
 
-<audio src="Rain.wav" autoplay controls="controls" loop="true">
-  The installation features an auditive experience. The track cannot be played back in your browser.
-</audio>
+*The installation features an audio experience. As during the exhibition the soundtrack is played back and looped on this website. (wav, 1:46)*
+<audio src="Rain.wav" autoplay controls="controls" loop="true">The track cannot be played back in your browser.</audio>
 
 ![raining](Rain_02.gif)
 
