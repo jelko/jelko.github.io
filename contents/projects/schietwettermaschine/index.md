@@ -22,12 +22,13 @@ The elevator ride up to the 3rd floor was enacted by an audio experience. Two Sp
 Once the visitors arrived on the third floor, the door opens and reveals the view on the second part of the installation. A window made out of highly-transparent foil was mounted on a wooden frame. A water pump was transporting the water from a reservoir through copper pipes to the top edge of the frame. Here it was released through tiny holes in the pipe and spilled onto the foil. The drops formed hundreds of tiny streams running down the foil. As the result the people, coming out of the elevator, were looking from the balcony on the neighbouring buildings through a curtain of rain.
 "Schietwetter aber quickfidel"(~ "shitty weather, but lively") a slogan in local dialect, written on the window, was rounding off the image and welcoming the visitor to the Bremen experience waiting for them inside the store.
 
-![construction](construction.jpg)
+![kid](kid.jpg)
 
 ### Evaluation
 
 Both parts of the project needed their good amount of preparation time. Doing both at the same time was challenging but ended up satisfying for us. Building up a water installation in the third floor, with found parts and parts from the hardware store, is of course an experiment, and likely to cause trouble. Thus we are happy that our construction turned out to be a working model, that caused no dangers during the two days of presentation. To reach this degree of temporary usability and sufficient safety, it took quite some tinkering and fine-tuning. The audible enactment of the elevator turned out much less tricky - originally we planned to trigger the sound with a sensor mounted on the elevators’ door, which rendered impossible due to sunlight compromising the IR sensors reliability. In the end we decided that the experience also works perfectly with the soundtrack looping continuously. All in all we were quite happy with the outcome of our installation and the pop-up store in general. We had a lot of positive feedback from the people passing by. We believe that our goal to turn the weather of Bremen into something attractive and enjoyable was reached.
 
+![construction](construction.jpg)
 ![store](cocept_store_inside.jpg)
 
 #installation
