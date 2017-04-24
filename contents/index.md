@@ -3,7 +3,7 @@ title: A place on the web
 template: index.html
 ---
 
-[Jelko](#its-me)
+[jelko](#its-me)
 
 <a name="its-me"></a>
 
