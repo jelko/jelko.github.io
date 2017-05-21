@@ -7,7 +7,7 @@ template: index.html
 
 <a name="its-me"></a>
 
-He is a maker and critical designer with a technological understanding and humanistic curiosity. His works occur with the context of a time formed by algorithmitisation and are exploring the interaction of the human and the machine. Studying [digital media](http://digitalmedia-bremen.de/) at university and university of the arts Bremen.
+He is a ~~maker~~ thinker and critical designer with a technological understanding and humanistic curiosity. His works occur with the context of a time formed by algorithmitisation and are exploring the interaction of the human and the machine. Studying [digital media](http://digitalmedia-bremen.de/) at university and university of the arts Bremen.
 
 ~~Currently at Edenspiekermann in Amsterdam.~~<br/>
 He is working on a thesis as part of the graduate seminar "media art interaction" with Prof. Frieder Nake:<br/> Researching the phenomenon of [#waiting](/projects/waiting). Trying to uncover slowness in human-computer interaction.
