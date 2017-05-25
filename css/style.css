@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    padding: 2em 2em;
+    font-family: "Eczar", monospace;
+    font-size: 20px;
+    color: #777;
+    max-width: 25em;
+    margin: 0 auto;
+    line-height: 36px;
+    letter-spacing: 0.8px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+h1 {
+    text-transform: uppercase;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1em;
+    margin: 2em 0;
+    font-weight: 400;
+}
+h2, h3, h4, h5, h6 {
+  color: #777;
+}
+p {
+    margin: 2em 0;
+}
+img {
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+}
+a, a:hover, a:checked, a:active {
+    color: #000;
+    text-decoration: none;
+}
+.text a {
+    color: #000;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 0.8;
+    border-bottom: solid transparent 3px;
+    cursor: pointer;
+}
+.text a:hover {
+    border-bottom: solid #50E3C2 3px;
+}
+.click-through a.clicked, .click-through a:hover.clicked {
+    color: #777;
+    border-bottom: solid transparent 3px;
+    cursor: default;
+}
+.click-through span[id] {
+  display: none;
+}
+span[id].on {
+  display: inline;
+}
+span[id].off {
+  display: none;
+}
+.hidden, .hidden * {
+    display: none;
+}
+
+.big-list li {
+  list-style: none;
+  position: relative;
+  margin-bottom: 0.5em;
+}
+.big-list li a {
+  font-size: 2em;
+  font-weight: 500;
+  position: relative;
+  margin-right: 0.8em;
+  line-height: 1.5em;
+}
+.big-list li span.no, .big-list li span.meta {
+  font-family: "Fira Mono";
+  font-size: 0.9rem;
+  color: #777;
+}
+.big-list li a span.no {
+  position: absolute;
+  left: -2em;
+  bottom: 0;
+  color: #777;
+}
+.big-list li a:hover span.no {
+  color: #50E3C2;
+}
+.big-list li span.meta {
+  margin-top: -0.8em;
+  display: block;
+}
