@@ -8,10 +8,10 @@ template: index.html
 
 *tapedeck* explores the interaction of physical tokens as artefacts of virtual entities.
 
-![](tapedeck-17.jpg)
 
-![](tapedeck-4.jpg)
+![](tapedeck-17-small.jpg)
 
-![](tapedeck-1.jpg)
+![](tapedeck-4-small.jpg)
 
-![](tapedeck-10.jpg)
+![](tapedeck-1-small.jpg)
+![](tapedeck-10-small.jpg)
