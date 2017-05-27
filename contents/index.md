@@ -20,7 +20,7 @@ He is working on a thesis as part of the graduate seminar "media art interaction
 
 <a name="projects"></a>
 
-<!--* [tapedeck (2017)](/projects/tapedeck/)-->
+* [tapedeck (2016)](/projects/tapedeck/)
 * [non-visual navigation device (2015)](/projects/navigation)<!--* [perception experiment in VR](/projects/VR-experiment)-->
 * [communication wall (2014)](/projects/wall)
 
