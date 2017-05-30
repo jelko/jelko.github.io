@@ -2,6 +2,11 @@
     padding: 0;
     margin: 0;
 }
+
+:root {
+  --highlight-color: #50E3C2;
+}
+
 body {
     padding: 2em 2em;
     font-family: "Eczar", monospace;
@@ -46,6 +51,7 @@ a, a:hover, a:checked, a:active {
 }
 .text a:hover {
     border-bottom: solid #50E3C2 3px;
+    border-bottom: solid var(--highlight-color) 3px;
 }
 .click-through a.clicked, .click-through a:hover.clicked {
     color: #777;
@@ -90,6 +96,7 @@ span[id].off {
 }
 .big-list li a:hover span.no {
   color: #50E3C2;
+  color: var(--highlight-color);
 }
 .big-list li span.meta {
   margin-top: -0.8em;
