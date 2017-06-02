@@ -4,15 +4,16 @@
 }
 
 :root {
-  --highlight-color: #50E3C2;
+  --highlight-color-strong: #50E3C2;
+  --highlight-color: rgba(80, 227, 194, .5);
 }
 
 body {
-    padding: 2em 2em;
+    padding: 4em 4em;
     font-family: "Eczar", monospace;
     font-size: 20px;
     color: #777;
-    max-width: 25em;
+    max-width: 30em;
     margin: 0 auto;
     line-height: 36px;
     letter-spacing: 0.8px;
@@ -32,7 +33,7 @@ h2, h3, h4, h5, h6 {
   color: #777;
 }
 p {
-    margin: 2em 0;
+    margin: 0 0 2em 0;
 }
 img {
     margin: 0 auto;
@@ -46,16 +47,28 @@ a, a:hover, a:checked, a:active {
 .text a {
     color: #000;
     text-decoration: none;
-    border-bottom: solid transparent 3px;
     cursor: pointer;
 }
-.text a:hover {
+a:hover {
     border-bottom: solid #50E3C2 3px;
     border-bottom: solid var(--highlight-color) 3px;
 }
+a[href] {
+  color: var(--highlight-color-strong);
+}
+a[href]:hover {
+    border-bottom: dotted #50E3C2 3px;
+    border-bottom: dotted var(--highlight-color) 3px;
+}
+a.external::after {
+  content: ' \2197';
+  font-size: .5em;
+  vertical-align: super;
+}
+
 .click-through a.clicked, .click-through a:hover.clicked {
     color: #777;
-    border-bottom: solid transparent 3px;
+    border-bottom: solid white 3px;
     cursor: default;
 }
 .click-through span[id] {
@@ -64,11 +77,34 @@ a, a:hover, a:checked, a:active {
 span[id].on {
   display: inline;
 }
-span[id].off {
+div.on {
+  display: block;
+}
+.on {
+  animation: flash 1s;
+}
+span[id].off, .off {
   display: none;
 }
 .hidden, .hidden * {
     display: none;
+}
+.reset-marker {
+  font-family: "Input Mono", monospace;
+  position: absolute;
+  right: 4em;
+  top: 4em;
+  opacity: .5;
+  animation: none;
+}
+
+@keyframes flash {
+  0% {
+    background-color: var(--highlight-color);
+  }
+  100% {
+    background-color: transparent;
+  }
 }
 
 .big-list li {
@@ -84,7 +120,7 @@ span[id].off {
   line-height: 1.5em;
 }
 .big-list li span.no, .big-list li span.meta {
-  font-family: "Fira Mono";
+  font-family: "Input Mono";
   font-size: 0.9rem;
   color: #777;
 }
