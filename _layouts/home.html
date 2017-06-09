@@ -1,0 +1,68 @@
+---
+layout: default
+---
+
+<div class="wrapper click-through hidden">
+	<div class="text">
+		<div id="reset" class="reset-marker off"><a data-opens="reset-text" title="reset" id="51">&#8676;</a></div>
+
+		<p class="off" id="reset-text"><a data-opens="50">I want some fun back!</a> <span id="50"><a href="javascript:void(0)" id="reset-btn">Start over.</a></span></span>
+		</p>
+
+		<p><span id="0">Hello, <a data-opens="contact">I am</a> <a data-opens="1" id="23">jelko</a><span id="1"> arnds</span></span>
+			<span id="17" class="on"><a data-opens="0" data-closes="17" id="24">jelko</a></span>,
+			<span id="2">critical </span>
+			<a data-opens="2" class="on">designer</a>
+			<a data-opens="16" class="on" id="25">and</a>
+			<span id="18" class="on"><a data-opens="3" data-closes="18" id="26">maker</a></span>
+			<span id="3"><s>maker</s> <a data-opens="4" id="27"><a data-opens="21" id="28">thinker</a></a></span>.
+			<span id="16"><a data-opens="works" id="30">My works</a> are driven by a <a data-opens="7">technological understanding</a><span id="7"> and humanistic <a data-opens="19">curiosity</a></span>.</span>
+			<span id="19"><a data-opens="20">I am</a> <a data-opens="8">studying</a><span id="8"> <a data-opens="9">digital media</a><span id="9"> at the <a href="http://digitalmedia-bremen.de/en">University &amp; University of the Arts</a> in Bremen</span></span>.</span>
+			<span id="20">Currently <a data-opens="12">working</a> on my <a data-opens="11">thesis</a><span id="11"> about <a href="/projects/waiting">WAITING</a></span><span id="12"> in the <a data-opens="13">graduate seminar</a> "media art interaction"<span id="13"> by <a href="http://dada.compart-bremen.de/item/agent/68">Prof. Frieder Nake</a></span></span>.</span>
+		</p>
+		<p id="contact" class="off"><a data-opens="201">Who are you?</a><span id="201"> <a data-opens="202" data-closes="201">Let me know</a></span><span id="202"><a data-opens="203">Let me know</a> via <a href="https://twitter.com/jelkoarnds">Twitter</a> or <a href="mailto:moin@jelkoarnds.com">email</a>.</span>
+			<span id="203"> I am looking forward to hear from <a data-opens="204">you</a>.<span id="204"> Really!</span></span>
+			</span>
+		</p>
+	</div>
+
+
+	<div id="works" class="off">
+		<h2>a few things I made</h2>
+
+		<ul class="big-list">
+			{% assign projects = (site.projects | sort: 'position') %} {% for project in projects %} {% unless project.commercial %}
+			<li>
+				<a href="{{ project.url }}"><span class="no">#{{ project.position }}</span>{{ project.title }}</a>
+				<span class="meta-info">{{ project.year }}{% if project.meta %} - {{ project.meta }}{% endif %}</span>
+			</li>
+			{% endunless %} {% endfor %}
+		</ul>
+
+		<p><a data-opens="101">Do you want to see more?</a><span id="101"> <a data-opens="commercial">Really?</a></span></p>
+		<p>
+			<span id="commercial">I was <a data-opens="51">working and living</a> in Amsterdam from 2015 to 2016<span id="51">, doing <a data-opens="52">interaction design</a><span id="52"> at <a data-opens="53">Edenspiekermann</a></span></span>.
+			<span id="53">I did some <a data-opens="55">commercial works</a> for <a data-opens="54">numerous clients</a><span id="54">, including Elsevier, The Lancet, Nationale-Nederlanden and Allianz</span>.
+			<span id="55">Here is a tiny <a data-opens="commercial-works">selection</a>.</span></span>
+			</span>
+		</p>
+	</div>
+
+	<div id="commercial-works" class="off">
+
+
+		<ul class="big-list">
+			{% assign projects = (site.projects | sort: 'position') %} {% for project in projects %} {% if project.commercial %}
+			<li>
+				<a href="{{ project.url }}"><span class="no">#{{ project.position }}</span>{{ project.title }}</a>
+				<span class="meta-info">{{ project.year }}{% if project.meta %} - {{ project.meta }}{% endif %}</span>
+			</li>
+			{% endif %} {% endfor %}
+		</ul>
+
+		<p>For roughly ten years I have been doing freelance work in the field of web and interaction design for various small and big clients.</p>
+		<p>My current practise is following a experimental approach, trying to understand the machine as a medium. Following the work on <a href="/projects/waiting">WAITING</a> I am developing a philosophy for intentional interactions, something other great people
+			call slow technology.</p>
+
+	</div>
+</div>
