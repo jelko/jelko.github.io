@@ -10,9 +10,21 @@
   <link rel="icon" href="/assets/img/circle.png">
 	<link href='https://fonts.googleapis.com/css?family=Fira+Mono:400,700' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Eczar:400,500' rel='stylesheet' type='text/css'>
-  <script src="{{ "/assets/js/lib/require.js" | relative_url }}"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="{{ "/assets/js/clickthrough.js" | relative_url }}"></script>
+  <script data-main="{{ "/assets/js/common.js" | relative_url }}" src="{{ "/assets/js/lib/require.js" | relative_url }}"></script>
+	<script>
+    var randomColor = require(['lib/randomColor', 'cookie'], function(randomColor, CookieController){
+      var COOKIE_NAME = "site-color";
+      var cookie_is_rgb_color = /(^rgb[(](?:\s*0*(?:\d\d?(?:\.\d+)?(?:\s*%)?|\.\d+\s*%|100(?:\.0*)?\s*%|(?:1\d\d|2[0-4]\d|25[0-5])(?:\.\d+)?)\s*(?:,(?![)])|(?=[)]))){3}[)]$)/i.test(CookieController.getCookie(COOKIE_NAME));
+      if(cookie_is_rgb_color){
+        var color = CookieController.getCookie(COOKIE_NAME);
+      }else{
+        var color = randomColor({luminosity: 'dark', format: 'rgb'});
+        CookieController.setCookie(COOKIE_NAME, color);
+      }
+      document.documentElement.style.setProperty('--highlight-color-strong', color);
+      document.documentElement.style.setProperty('--highlight-color', color.replace(')', ', 0.5)').replace('rgb', 'rgba'))
+    });
+  </script>
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
 
