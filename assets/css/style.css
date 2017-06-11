@@ -136,6 +136,7 @@ a:hover {
 
 a[href], .no-js a[href] {
   color: var(--highlight-color-strong);
+  cursor: pointer;
 }
 
 a[href]:hover, .no-js a[href]:hover {
