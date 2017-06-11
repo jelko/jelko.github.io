@@ -7,24 +7,61 @@
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
   <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
-  <link rel="icon" href="/assets/img/circle.png">
-	<link href='https://fonts.googleapis.com/css?family=Fira+Mono:400,700' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Eczar:400,500' rel='stylesheet' type='text/css'>
-  <script data-main="{{ "/assets/js/common.js" | relative_url }}" src="{{ "/assets/js/lib/require.js" | relative_url }}"></script>
+  <script src="{{ "/assets/js/lib/require.js" | relative_url }}"></script>
 	<script>
-    var randomColor = require(['lib/randomColor', 'cookie'], function(randomColor, CookieController){
-      var COOKIE_NAME = "site-color";
-      var cookie_is_rgb_color = /(^rgb[(](?:\s*0*(?:\d\d?(?:\.\d+)?(?:\s*%)?|\.\d+\s*%|100(?:\.0*)?\s*%|(?:1\d\d|2[0-4]\d|25[0-5])(?:\.\d+)?)\s*(?:,(?![)])|(?=[)]))){3}[)]$)/i.test(CookieController.getCookie(COOKIE_NAME));
-      if(cookie_is_rgb_color){
-        var color = CookieController.getCookie(COOKIE_NAME);
-      }else{
-        var color = randomColor({luminosity: 'dark', format: 'rgb'});
-        CookieController.setCookie(COOKIE_NAME, color);
+    requirejs.config({
+        baseUrl: '/assets/js',
+        paths: {
+            jquery: 'lib/jquery',
+            randomColor: 'lib/randomColor.min'
+        }
+    });
+    requirejs.onError = function (err) {
+        console.warn("module loding error (requirejs): switching to no-js version.");
+        document.documentElement.classList.remove("js");
+        document.documentElement.classList.add("no-js");
+        throw err;
+    };
+    document.documentElement.classList.remove("no-js");
+    document.documentElement.classList.add("js");
+	</script>
+	<script>
+    var randomColor = require(['randomColor', 'cookie'], function(randomColor, CookieController){
+      var COOKIE_NAME = "site-color-seed";
+      var seed = parseInt(CookieController.getCookie(COOKIE_NAME));
+      if(!seed){
+        seed = Math.floor(Math.random()*1000); // 1000 seed values
+        CookieController.setCookie(COOKIE_NAME, seed, 24);
       }
+      var color = randomColor({luminosity: 'dark', format: 'rgb', seed: seed});
       document.documentElement.style.setProperty('--highlight-color-strong', color);
       document.documentElement.style.setProperty('--highlight-color', color.replace(')', ', 0.5)').replace('rgb', 'rgba'))
+      var canvas = document.createElement('canvas');
+        canvas.width = 32;
+        canvas.height = 32;
+        var ctx = canvas.getContext('2d');
+        var img = new Image();
+        img.src = '/assets/img/circle.png';
+        img.onload = function() {
+            var centerX = canvas.width / 2;
+            var centerY = canvas.height / 2;
+            var radius = 10;
+
+            ctx.beginPath();
+            ctx.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
+            ctx.fillStyle = color;
+            ctx.fill();
+
+            var link = document.createElement('link');
+            link.type = 'image/x-icon';
+            link.rel = 'shortcut icon';
+            link.href = canvas.toDataURL("image/x-icon");
+            document.getElementsByTagName('head')[0].appendChild(link);
+        }
     });
   </script>
+  <!-- <link rel="icon" href="/assets/img/circle.png"> -->
+	<link href='https://fonts.googleapis.com/css?family=Eczar:400,500' rel='stylesheet' type='text/css'>
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
 

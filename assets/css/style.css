@@ -4,10 +4,18 @@
 }
 
 :root {
-  --highlight-color-strong: #50E3C2;
-  --highlight-color: rgba(80, 227, 194, .5);
+  --highlight-color-strong: rgb(214, 8, 125);
+  --highlight-color: rgb(214, 8, 125, .5);
 }
 
+::-moz-selection {
+    color: #000;
+    background: var(--highlight-color);
+}
+::selection {
+    color: #000;
+    background: var(--highlight-color);
+}
 
 /* media query chaning on mobile root-em at the bottom */
 
@@ -16,13 +24,13 @@ body {
   font-family: "Eczar", Georgia, Times, serif;
   font-size: 20px;
   line-height: 36px;
-  color: #777;
+  color: #888;
   max-width: 30em;
   margin: 0 auto;
   letter-spacing: 0.8px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-display: fallback;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -39,7 +47,7 @@ h1 {
 }
 
 h2, h3, h4, h5, h6 {
-  color: #777;
+  color: #888;
 }
 
 hr {
@@ -60,7 +68,7 @@ p, ul {
   font-size: 0.8em;
   letter-spacing: 0;
   line-height: 1.8em;
-  margin: 4rem -2rem;
+  margin: 4rem 0rem;
 }
 
 .header {
@@ -68,10 +76,17 @@ p, ul {
   color: #aaa;
   margin-bottom: 0rem;
 }
+.header a, .header a:hover {
+  color: #aaa !important;
+  text-decoration: none;
+  border-bottom: none !important;
+}
+.header a:hover {
+  text-decoration: underline;
+}
 
 img+em, .meta, .header {
-  margin-right: -2em;
-  margin-left: -2em;
+
 }
 
 img {
@@ -86,7 +101,7 @@ img+em {
   font-style: normal;
   line-height: 1.5em;
   display: block;
-  margin: 0.5rem -2em;
+  margin: 0.5rem 0em;
   letter-spacing: 0;
   font-weight: normal;
 }
@@ -107,25 +122,25 @@ a:hover {
   border-bottom: solid var(--highlight-color) 3px;
 }
 
-a[href] {
+.click-through a.clicked, .click-through a:hover.clicked {
+  color: #888;
+  border-bottom: solid white 3px;
+  cursor: default;
+}
+
+.no-js a {
+  color: rgb(136, 136, 136);
+  border-bottom: none;
+  cursor: default;
+}
+
+a[href], .no-js a[href] {
   color: var(--highlight-color-strong);
 }
 
-a[href]:hover {
+a[href]:hover, .no-js a[href]:hover {
   border-bottom: dotted #50E3C2 3px;
   border-bottom: dotted var(--highlight-color) 3px;
-}
-
-a.external::after {
-  content: ' \2197';
-  font-size: .5em;
-  vertical-align: super;
-}
-
-.click-through a.clicked, .click-through a:hover.clicked {
-  color: #777;
-  border-bottom: solid white 3px;
-  cursor: default;
 }
 
 .click-through span[id] {
@@ -141,10 +156,19 @@ div.on {
 }
 
 .on {
-  animation: flash 1s;
+  animation: flash 0.5s;
 }
 
 span[id].off, .off {
+  display: none;
+}
+.no-js .click-through span[id], .no-js span[id].off, .no-js .off {
+  display: inline;
+}
+.no-js p.off {
+  display: block;
+}
+.no-js #reset-text, .no-js #reset, .no-js .off-nojs, .no-js span[id].off-nojs  {
   display: none;
 }
 
@@ -163,10 +187,10 @@ span[id].off, .off {
 
 @keyframes flash {
   0% {
-    background-color: var(--highlight-color);
+    opacity: 0;
   }
   100% {
-    background-color: transparent;
+    opacity: 1;
   }
 }
 
@@ -187,7 +211,7 @@ span[id].off, .off {
 .big-list li span.no, .big-list li span.meta-info {
   font-family: "Input Mono", "courier new", courier, monospace;
   font-size: 0.9rem;
-  color: #777;
+  color: #888;
 }
 
 .big-list li a span.no {
@@ -195,7 +219,7 @@ span[id].off, .off {
   width: 4em;
   left: -5em;
   bottom: 0;
-  color: #777;
+  color: #888;
   text-align: right;
   font-weight: normal;
 }
@@ -210,14 +234,50 @@ span[id].off, .off {
   display: block;
 }
 
+table.cv {
+}
+table.cv td {
+  vertical-align: top;
+  padding-bottom: 2em;
+}
+table.cv td:first-child {
+  white-space: nowrap;
+  padding-right: 2em;
+}
+
 @media only screen and (max-device-width: 480px) {
+  .reset-marker {
+    right: 1em;
+    top: 3em;
+  }
   body {
     font-size: 16px;
     line-height: 28px;
-    padding: 2em 2em;
+    padding: 3em;
+    word-wrap: break-word;
   }
   img+em, .meta, .header {
-    margin-right: -1rem;
-    margin-left: -1rem;
+
+  }
+  .big-list li a span.no {
+    width: 4em;
+    left: -5em;
+    display:none;
+  }
+  .big-list li span.no, .big-list li span.meta-info {
+    font-family: "Input Mono", "courier new", courier, monospace;
+    font-size: 0.7rem;
+  }
+  table.cv td {
+    display: block;
+    padding-left: 1em;
+    padding-bottom: 2em;
+  }
+  table.cv td:first-child {
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+  }
+}
   }
 }
