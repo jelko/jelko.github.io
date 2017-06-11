@@ -42,7 +42,7 @@
         canvas.height = 32;
         var ctx = canvas.getContext('2d');
         var img = new Image();
-        img.src = '/assets/img/circle.png';
+        img.src = '{{ "/assets/img/circle.png" | relative_url }}';
         img.onload = function() {
             var centerX = canvas.width / 2;
             var centerY = canvas.height / 2;
