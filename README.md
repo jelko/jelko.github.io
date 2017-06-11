@@ -1,3 +1,12 @@
+# personal website (v3)
+
+* jekyll (hosted on GitHub pages)
+* projects as custom collection
+* layouts: default, project(, home)
+* includes: header, footer, analytics
+* js loading with requirejs
+* fonts: `Input mono` (local) `Eczar` (Google Fonts)
+
 ## click-through thingy
 
 * every element (all a, all span) need a `id`
