@@ -4,15 +4,15 @@ template: index.html
 
 # Schietwettermaschine
 
-2017, in collaboration with Lukas Leck
+2017, in collaboration with [Lukas Leck](http://lukasleck.work)
 
-The *Schietwettermaschine* (~ shit-weather-maschine) is a simulation of typical Bremen weather: Rain. The installation was part of a concept store that showcased Bremen in various ways and tied to deliver a multimedial impression our city to the visitor.
+The *Schietwettermaschine* (~ shit-weather-maschine) is a simulation of the typical weather in the city of Bremen: Rain. The installation was part of a exhibition design project that resulted in a concept store that showcased Bremen in various ways and tied to deliver a multimedial impression the city to a visitor.
 
 ![raining](Rain_02.gif)
 
 The work was exhibited at Hochschultage at University of the Arts in Bremen on 11. & 12. of February 2017. The concept store was situated at the 6th segment of Speicher XI in the 3rd floor. The installation took place inside the elevator and on the balcony in front of the store.
 
-The elevator ride up to the 3rd floor was enacted by an audio experience. Two Speakers were mounted into the elevator, driven by an off-grid 12V system, on which a composition of rainsounds, as if heard from inside the elevator, was playing.
+The elevator ride up to the 3rd floor was augmented by an audio experience. Two Speakers were mounted into the elevator, driven by an off-grid 12V system, on which a composition of rain-sounds, as if heard from inside the elevator, was playing.
 
 *The installation features an audio experience. As during the exhibition the soundtrack is played back and looped on this website. (wav, 1:46)*
 <audio src="Rain.wav" autoplay controls="controls" loop="true">The track cannot be played back in your browser.</audio>
@@ -30,5 +30,3 @@ Both parts of the project needed their good amount of preparation time. Doing bo
 
 ![construction](construction.jpg)
 ![store](cocept_store_inside.jpg)
-
-#installation
