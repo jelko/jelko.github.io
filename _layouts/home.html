@@ -52,15 +52,15 @@ layout: default
 		<ul class="big-list">
 			{% assign projects = (site.projects | sort: 'position') %} {% for project in projects %} {% if project.commercial %}
 			<li>
-				<a href="{{ project.url }}"><span class="no">#{{ project.position }}</span>{{ project.title }}</a>
+				<a href="{{ project.url | relative_url }}"><span class="no">#{{ project.position }}</span>{{ project.title }}</a>
 				<span class="meta-info">{{ project.year }}{% if project.meta %} - {{ project.meta }}{% endif %}</span>
 			</li>
 			{% endif %} {% endfor %}
 		</ul>
 
 		<p>For roughly ten years I have been doing freelance work in the field of web and interaction design for various small and big clients.</p>
-		<p>My current practise is following a experimental approach, trying to understand the machine as a medium. Following the work on <a href="/projects/waiting">WAITING</a> I am developing a philosophy for intentional interactions, something other great people
-			call slow technology.</p>
+		<p>My current practise is following a experimental approach, trying to understand the machine as a medium. Following the work on <a href="/projects/waiting">WAITING</a> I am developing a philosophy for <i>intentional interactions</i>, something other great people call <i>slow technology</i>.</p>
+		<p><a href="/cv">curriculum vitae</a></p>
 
 	</div>
 </div>
