@@ -10,7 +10,7 @@
   <script src="{{ "/assets/js/lib/require.js" | relative_url }}"></script>
 	<script>
     requirejs.config({
-        baseUrl: '/assets/js',
+        baseUrl: '{{ "/assets/js/" | relative_url }}',
         paths: {
             jquery: 'lib/jquery',
             randomColor: 'lib/randomColor.min'
@@ -25,6 +25,7 @@
     document.documentElement.classList.remove("no-js");
     document.documentElement.classList.add("js");
 	</script>
+  <link rel="icon" href="{{ "/assets/img/circle.png" | relative_url }}">
 	<script>
     var randomColor = require(['randomColor', 'cookie'], function(randomColor, CookieController){
       var COOKIE_NAME = "site-color-seed";
@@ -60,7 +61,6 @@
         }
     });
   </script>
-  <!-- <link rel="icon" href="/assets/img/circle.png"> -->
 	<link href='https://fonts.googleapis.com/css?family=Eczar:400,500' rel='stylesheet' type='text/css'>
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
