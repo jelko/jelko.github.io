@@ -31,7 +31,7 @@ layout: default
 		<ul class="big-list">
 			{% assign projects = (site.projects | sort: 'position') %} {% for project in projects %} {% unless project.commercial %}
 			<li>
-				<a href="{{ project.url }}"><span class="no">#{{ project.position }}</span>{{ project.title }}</a>
+				<a href="{{ project.url }}">{{ project.title }}</a>
 				<span class="meta-info">{{ project.year }}{% if project.meta %} - {{ project.meta }}{% endif %}</span>
 			</li>
 			{% endunless %} {% endfor %}
@@ -52,7 +52,7 @@ layout: default
 		<ul class="big-list">
 			{% assign projects = (site.projects | sort: 'position') %} {% for project in projects %} {% if project.commercial %}
 			<li>
-				<a href="{{ project.url | relative_url }}"><span class="no">#{{ project.position }}</span>{{ project.title }}</a>
+				<a href="{{ project.url | relative_url }}">{{ project.title }}</a>
 				<span class="meta-info">{{ project.year }}{% if project.meta %} - {{ project.meta }}{% endif %}</span>
 			</li>
 			{% endif %} {% endfor %}
