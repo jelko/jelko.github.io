@@ -8,7 +8,7 @@ position: 5
 # time perception in virtual reality <br/> *Zeitmanipulation in der Virtuellen Realität*
 
 {:.meta}
-2015, research collaboration with Niklas Emanuel, Alexander Grabsch, Laura Meyer Mirco Pham, Alexander Schülke, Damaris Semper Kalaishelvan Sithamparanathan
+2015, research collaboration with Niklas Emanuel, Alexander Grabsch, Laura Meyer, Mirco Pham, Alexander Schülke, Damaris Semper Kalaishelvan Sithamparanathan
 
 *Can you manipulate time in virtual reality and thereby influence the time perception in real life?* This was the core question of a research project carried out by a multidisciplinary group. A physical bike simulator, as a means of input, and a VR, as the environment to cycle in, was constructed and 30 test persons were invited to participate in our experiment.
 
