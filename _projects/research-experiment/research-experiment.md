@@ -5,7 +5,7 @@ year: 2015
 position: 5
 ---
 
-# time perception in virtual reality <br/><br/>Zeitmanipulation in der Virtuellen Realität
+# time perception in virtual reality <br/><br/>*Zeitmanipulation in der Virtuellen Realität*
 
 {:.meta}
 2015, research collaboration with Niklas Emanuel, Alexander Grabsch, Laura Meyer, Mirco Pham, Alexander Schülke, Damaris Semper Kalaishelvan Sithamparanathan
