@@ -5,12 +5,12 @@ year: 2015
 position: 4
 ---
 
-# wayght
+# non-visual navigation device
 
 {:.meta}
 2015, in collaboration with [Niklas Barning](http://www.niklasbarning.de/), [Florian Schröder](http://www.florianschroder.com/) and [Laura Spillner](http://digitalmedia-bremen.de/student/laura-spillner/)
 
-*wayght* is a prototype for natural navigation. The device explores physical interaction with weight as a mean of output. A location, the destination for the navigation, is programmed into the device. Located via GPS it will indicate the direction by virtue of pressure onto the users hand which is produced by a moving weight inside. *wayght* might be a non-visual programmable compass.
+*wayght* is a prototype for natural navigation. The device explores physical interaction with weight as a mean of output. A location, the destination for the navigation, is programmed into the device. Located via GPS it will indicate the direction by virtue of pressure onto the users hand which is produced by a moving weight inside. *wayght* might be understood as a non-visual programmable compass.
 
 ---
 

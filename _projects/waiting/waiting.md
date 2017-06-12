@@ -15,7 +15,7 @@ Emerging form this theory I am working on a practical expression. A series with 
 ---
 
 ![](/waiting-button-2.jpg)
-*#2 a emergency button that freezes a computer. part of a series in development.*
+*#2 a emergency button that freezes a computer. (part of a series in development.)*
 
 ---
 
