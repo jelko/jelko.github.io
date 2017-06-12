@@ -19,6 +19,7 @@ position: 2
 ![](/tapedeck-1-small.jpg)
 
 ![](/tapedeck-10-small.jpg)
+*Photography by [Timo Johannes](http://timojohannes.github.io/)*
 
 Todays music is often produced and consumed digitally end-to-end. Physical records that function as delivery, collectable and playback medium are a sign of the past. The availability of high-speed internet connectivity, delivery services and more connected playback devices shape todays listening experience. Collections are kept on computers and playback is arranged primarily via on-screen interactions.
 
