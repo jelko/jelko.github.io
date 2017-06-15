@@ -29,7 +29,7 @@ The front side affords two buttons and a slot to insert a floppy disk. When inse
 The buttons allow to skip a track, or jump back to the previous one if the disk contains a set of tracks (i.e. a album or playlist).
 
 The hardware consists of a Raspberry Pi (3rd generation), a HiFiBerry DAC+ audio interface and a standard USB floppy drive. Audio out is provided via RCA connectors.
-Enclosing the inner parts, the device features a laser cut casing. Sketches of the design where prepared in Fusion 360 and then sliced for 5mm acrylic sheets. The acrylic layers are connected by 4M screws. The top sheet layers as a disk stand.
+Enclosing the inner parts, the device features a laser cut enclosure. Sketches of the design where prepared in Fusion 360 and then sliced for 5mm acrylic sheets. The acrylic layers are connected by 4M screws. The top sheet layers as a disk stand.
 
 The Pi runs standard Raspbian with [Mopidy](https://www.mopidy.com/), a python audio server. Mopidy comes with interfaces / plugins for all popular streaming services, already doing a lot of the work. Extended by a [custom frontend](http://github.com/jelko/tapedeck) the software handles the interactions with the floppy drive, which is triggered by a simple `udev` rule.
 
