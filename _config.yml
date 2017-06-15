@@ -23,6 +23,7 @@ url: "jelkoarnds.com" # the base hostname & protocol for your site, e.g. http://
 markdown: kramdown
 gems:
   - jekyll-feed
+  - jekyll-email-protect
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -31,3 +32,6 @@ collections:
   projects:
     output: true
     permalink: /:collection/:name
+
+kramdown:
+  entity_output: :as_input
