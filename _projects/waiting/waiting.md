@@ -6,11 +6,11 @@ meta: ongoing
 position: 1
 ---
 
-# please wait... <br/>on the poetry of waiting and the discovery of slowness
+# please wait... <br/>on the poetry of dwelling and the discovery of slowness
 
-*People hate to wait!* My thesis (in development) is dedicated to a philosophy of waiting. An essay is exploring the wherefores of the emotional state in waiting and tried to develop a delightful attitude towards this situation of the everyday. It touches on topics of slowness, calm and reflexion.
+*People hate to wait!* My thesis (in development) is dedicated to a philosophy of waiting. An essay is exploring the wherefores of the emotional state in waiting and tries to develop a delightful attitude towards this situation of the everyday. It touches on topics of slowness, calm and reflexion.
 
-Emerging form this theory I am working on a practical expression. A series with the working title "painful interactions", part of a forthcoming studio project, regards the human interaction with technology that is inherently "painful", leastways unconventional. The devices that am developing are slow in nature and offer room for reflexion, the foundation of my *waiting* work, hereby investigating the disposition of the medium.
+Emerging form this theory I am working on a practical expression: *intentful interactions* A series of products, part of a forthcoming studio project, regards the human interaction with technology that is inherently "slow". The devices that I am developing are unconventional in nature and offer room for reflexion, the foundation of my *waiting* work, hereby investigating the disposition of the medium.
 
 ---
 
