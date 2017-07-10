@@ -16,6 +16,8 @@ Biomedical researchers and practitioners, that practise evidence-based medicine,
 
 We design and engineered a advanced new search interface based on tokens, which encapsulated the complex search syntax into a easy to learn and comprehandsable experience.
 
-![](/embase-search.png)
+![](/embase-token-search-1.png)
+![](/embase-token-search-2.png)
+![](/embase-token-search-3.png)
 
 The resulting prototype was usability tested with a global set of users and iterated over multiple times. Our work was implemented and published on embase.com in early 2016.
