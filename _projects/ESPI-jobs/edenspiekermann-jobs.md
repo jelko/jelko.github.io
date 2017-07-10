@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Edenspiekermann Jobs
+title: making hiring collaborative
 year: 2016
 commercial: yes
 position: 101
