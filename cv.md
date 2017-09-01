@@ -7,7 +7,7 @@ title: curriculum vitae
 
 |2013 - 2017|University & University of the Arts<br/>*Bremen* <br/>student of digital media (bachelor)|
 |2016|University of Applied Sciences<br/>*Amsterdam*<br/>user experience design minor|
-|since 2017|Prof. Frider Nake / University of Bremen<br/>*Bremen* <br/>assistent|
+|since 2017|Prof. Frieder Nake / University of Bremen<br/>*Bremen* <br/>assistent|
 |2015 - 2016|Edenspiekermann<br/>*Amsterdam*<br/>interaction design|
 |2011 - 2016|freelancing|
 |2011 - 2016|unique planet e.V.<br/>*Hannover*<br/>volunteering (political and environmental activism)	|
