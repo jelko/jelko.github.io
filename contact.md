@@ -10,7 +10,7 @@ title: contact
 [&#43;49&#32;(0)&#32;151&#32;23608430](tel:{{ '+4915123608430' | encode_email }})<br/>
 [@jelkoarnds](http://twitter.com/jelkoarnds)
 
-## University Address (good for shipping):
+## Postal Address (University & Studio):
 
 Hochschule für Künste Bremen<br/>
 Jelko Arnds<br/>
