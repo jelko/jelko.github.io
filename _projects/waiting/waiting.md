@@ -1,6 +1,6 @@
 ---
 layout: project
-title: please wait...
+title: please wait.
 year: 2017
 meta: 
 position: 1
@@ -12,7 +12,7 @@ position: 1
 
 B.Sc. thesis, supervised by Prof. Frieder Nake and Prof. Peter von Maydell.
 
-*please wait* is an essay on the temporal no-more and not-yet. On the halts, breaks and halts, that sneak into our filled and throughly planed lives. It searches for the wonderful and beautiful: gifted time.
+*please wait* is an essay on the temporal no-more and not-yet. On the halts, breaks and pauses, that sneak into our filled and throughly planed lives. It searches for the wonderful and beautiful: gifted time.
 
 {:.small}
 > Waiting for a train to go or a bus to come,<br/>
