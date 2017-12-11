@@ -2,38 +2,45 @@
 layout: project
 title: please wait...
 year: 2017
-meta: ongoing
+meta: 
 position: 1
 ---
 
-# please wait... <br/>on the poetry of dwelling and the discovery of slowness
+# please wait...
 
-*People hate to wait!* My thesis (in development) is dedicated to a philosophy of waiting. An essay is exploring the wherefores of the emotional state in waiting and tries to develop a delightful attitude towards this situation of the everyday. It touches on topics of slowness, calm and reflexion.
+*on the aesthetics of dwelling and the discovery of slowness*
 
-Emerging form this theory I am working on a practical expression: *intentful interactions* A series of products, part of a forthcoming studio project, regards the human interaction with technology that is inherently "slow". The devices that I am developing are unconventional in nature and offer room for reflexion, the foundation of my *waiting* work, hereby investigating the disposition of the medium.
+B.Sc. thesis, supervised by Prof. Frieder Nake and Prof. Peter von Maydell.
 
----
+{:.small}
+> Waiting for a train to go or a bus to come,<br/>
+or a plane to go or the mail to come,<br/>
+or the rain to go or the phone to ring,<br/>
+or the snow to snow or waiting around for a Yes or No<br/>
+or waiting for their hair to grow.<br/><br/>
+Everyone is just waiting.<br/><br/>
+Waiting for the fish to bite<br/>
+or waiting for wind to fly a kite<br/>
+or waiting around for Friday night<br/><br/>
+or waiting, perhaps, for their Uncle Jake<br/>
+or a pot to boil, or a Better Break<br/>
+or a string of pearls, or a pair of pants<br/>
+or a wig with curls, or Another Chance.<br/><br/>
+Everyone is just waiting.
 
-![](/waiting-button-2.jpg)
-*#2 a emergency button that freezes a computer. (part of a series in development.)*
+{:.small}
+-- Dr. Seuss. 1990. Oh, Places You’ll Go!: »The Waiting Place«
 
----
+Presented on 28th of November 2017 at Theatre of Bremen / Kleines Haus / Noon.
 
-*Senseful or Senseless? Here or there? Being or not being? Becoming?*
-*What is this? Waiting.*
+![](/waiting-colloquium-1.jpg)
 
-*A Transition. Between the not-yet and no-more. Between awation and fulfilment. Between autonomy and heteronomy. Zwischen Selbst- und Fremdbestimmung.*
+![](/waiting-colloquium-4.jpg)
 
-*Awaiting something. Being in the moment, the here and the now. Or being in the next?*
+![](/waiting-colloquium-6.jpg)
 
-*Its painful. Inconvenient. Undetermined. Uncertain. Being exposed to the rule of someone else. Your time, stolen. Useless. Without sense.*
+![](/waiting-colloquium-9.jpg)
 
-*Dwelling in curiosity, feeling the anticipation, longing for for fulfilment. A time for contemplation. A space for focus. A gift of time?*
 
-*Between haste and meekness. Zwischen Hast und Geduldsamkeit. Irgendwo ist Geduld. Somewhere there is patience.*
 
-*What are others thinking about waiting? No. What am I thinking about waiting. This work is becoming a expression, a statement of thought.*
-
-*The connection to media, to the digital, the algorithmical, becomes apparent. Ever faster, ever more knowing, the machines wear the human behaviour, the interfaces build the surface, the subsurface is the abstract, the determined.*
-
-*Is the ability of waiting demolished my algorithmity?*
+![](/IMG_0846_web.jpg)

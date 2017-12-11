@@ -246,6 +246,16 @@ table.cv td:first-child {
   padding-right: 2em;
 }
 
+blockquote {
+	font-style: italic;
+	padding-left: 1em;
+}
+
+.small {
+	font-size: 0.7em;
+	line-height: 1.4em;
+}
+
 @media only screen and (max-device-width: 480px) {
   .reset-marker {
     right: 1em;
