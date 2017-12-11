@@ -6,11 +6,13 @@ meta:
 position: 1
 ---
 
-# please wait...
+# please wait.
 
 *on the aesthetics of dwelling and the discovery of slowness*
 
 B.Sc. thesis, supervised by Prof. Frieder Nake and Prof. Peter von Maydell.
+
+*please wait* is an essay on the temporal no-more and not-yet. On the halts, breaks and halts, that sneak into our filled and throughly planed lives. It searches for the wonderful and beautiful: gifted time.
 
 {:.small}
 > Waiting for a train to go or a bus to come,<br/>
@@ -31,7 +33,8 @@ Everyone is just waiting.
 {:.small}
 -- Dr. Seuss. 1990. Oh, Places You’ll Go!: »The Waiting Place«
 
-Presented on 28th of November 2017 at Theatre of Bremen / Kleines Haus / Noon.
+
+Developed in the graduate seminar »media art interaction« by Prof. Frieder Nake. Presented on 28th of November 2017 at Theatre of Bremen / Kleines Haus / Noon.
 
 ![](/waiting-colloquium-1.jpg)
 
@@ -40,7 +43,3 @@ Presented on 28th of November 2017 at Theatre of Bremen / Kleines Haus / Noon.
 ![](/waiting-colloquium-6.jpg)
 
 ![](/waiting-colloquium-9.jpg)
-
-
-
-![](/IMG_0846_web.jpg)
