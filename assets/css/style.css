@@ -173,6 +173,31 @@ span[id].off, .off {
   display: none;
 }
 
+@media only print{
+  .click-through span[id], span[id].off, .off {
+    display: inline;
+  }
+  p.off {
+    display: block;
+  }
+  #reset-text, #reset, .off-nojs, span[id].off-nojs  {
+    display: none;
+  }
+  a {
+    color: rgb(136, 136, 136);
+    border-bottom: none;
+    cursor: default;
+  }
+  body {
+    padding: 2em 2em;
+    font-family: "Eczar", Georgia, Times, serif;
+    font-size: 14px;
+    line-height: 24px;
+    max-width: 30em;
+    margin: 2em 4em 2em 2em;
+  }
+}
+
 .hidden, .hidden * {
   display: none;
 }
@@ -211,7 +236,7 @@ span[id].off, .off {
 
 .big-list li span.no, .big-list li span.meta-info {
   font-family: "Input Mono", "courier new", courier, monospace;
-  font-size: 0.9rem;
+  font-size: 0.7em;
   color: #888;
 }
 
@@ -289,6 +314,8 @@ blockquote {
     padding-left: 0;
     padding-bottom: 0;
   }
-}
+  }
   }
 }
+
+
