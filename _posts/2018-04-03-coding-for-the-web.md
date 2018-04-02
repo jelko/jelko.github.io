@@ -25,7 +25,7 @@ permalink: workshop
 
 # help
 
-- [ ] [A basic project template](https://github.com/digitalmediabremen/basic-web-project)
+- [A basic project template](https://github.com/digitalmediabremen/basic-web-project)
 
 # notes
 
