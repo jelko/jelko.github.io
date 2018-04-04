@@ -33,7 +33,7 @@ permalink: workshop
 
 # Get your name on the internet. A domain.
 * Figure out a name and check if it is available. (If you feel funky: Consider a new-style TLD like .studio, .party or .digital, apart from .com, .org, .de, .eu.)
-* Register the name with a registrar of your choice. Recommendations: [regfish.de](https://www.regfish.de/), [namescheap.com](https://www.namecheap.com/), [febas.de](https://www.febas.de/)
+* Register the name with a registrar of your choice. Recommendations: [regfish.de](https://www.regfish.de/), [namescheap.com](https://www.namecheap.com/), [febas.de](https://www.febas.de/), [iwantmyname.com](http://iwantmyname.com/)
 (Remember that you don't need to register the domain with the same company that is doing your webhosting. Sometimes its good to keep things separated. The only thing the register should include is unrestricted DNS Service.)
 
 # I don't want to code. I just want to get a portfolio online.
