@@ -34,6 +34,7 @@ University of the Arts Bremen
 # committee work
 (selection)
 
+2017 – 2018 member of hej.digital<br/>
 2018 member of the admission committee for *Digital Media MA*<br/>
 2017–2018 member of the inter-university programme board and studying committee of *Digital Media*<br/>
 2017–2018 member of the student council at University of the Arts <br/>
