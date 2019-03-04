@@ -34,10 +34,12 @@ University of the Arts Bremen
 # committee work
 (selection)
 
-2017 – 2018 member of hej.digital<br/>
+2017–2018 member of hej.digital<br/>
+2018–2019 member of *Fachbereichsrat Kunst und Design*<br/>
+2017–2019 member of *Studierendenrat Hochschule für Künste*<br/>
+2017–2019 member of *Gemeinsam beschließender Ausschuss Digitale Medien BA/ME*<br/>
 2018 member of the admission committee for *Digital Media MA*<br/>
-2017–2018 member of the inter-university programme board and studying committee of *Digital Media*<br/>
-2017–2018 member of the student council at University of the Arts <br/>
-2011–2016 member of the board of unique planet e.V. Hannover<br/>
+2017–2019 member of *Studienkommision Digitale Medien BA/MA*<br/>
+2011–2016 volunteer and member of the board of unique planet e.V. Hannover<br/>
 
 {% include footer.html %}
