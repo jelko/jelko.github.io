@@ -2,7 +2,7 @@
 title = 'Home'
 +++
 
-Jelko Arnds entwirft und entwickelt öffentliche digitale Dienste. Er ist als Referent mit dem Zuständigkeitsbereich Informationsfreiheit, Transparenz und Open Data für die Freien Hansestadt Bremen tätig.
+Jelko Arnds entwirft und entwickelt öffentliche digitale Dienste. Er ist als Referent mit dem Zuständigkeitsbereich Informationsfreiheit, Transparenz und Open Data für die Freie Hansestadt Bremen tätig.
 
 ## Hintergrund
 
