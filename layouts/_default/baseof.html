@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="{{ site.Language.Locale }}">
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+  <body>
+    <div class="site-shell">
+      {{ if not .IsHome }}
+      <header class="site-header">
+        <a class="site-mark" href="{{ "/" | relURL }}">{{ site.Title }}</a>
+      </header>
+        {{ end }}
+    
+      <main class="site-main">
+        {{ block "main" . }}{{ end }}
+      </main>
+
+      {{ partial "footer.html" . }}
+    </div>
+  </body>
+</html>

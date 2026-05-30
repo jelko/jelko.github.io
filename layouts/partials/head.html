@@ -1,0 +1,9 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+<meta name="theme-color" content="#f00">
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
+<link rel="canonical" href="{{ .Permalink }}">
+<link rel="stylesheet" href="{{ "css/site.css" | relURL }}">
+<link href="https://db.onlinewebfonts.com/c/a5b11f3d079234b5f957fa0a522c52b4?family=Real+Text+Web+W03+Regular" rel="stylesheet" type="text/css"/>
+<link href="https://db.onlinewebfonts.com/c/b1ed9e368e547fbee4ef2802fca3b7ef?family=Real+Text+Web+W03+Medium" rel="stylesheet" type="text/css"/>

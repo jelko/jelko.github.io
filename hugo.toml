@@ -1,0 +1,57 @@
+baseURL = 'https://jelkoarnds.com/'
+title = 'Jelko Arnds'
+enableEmoji = true
+ignoreErrors = ['additional-script-loading-error']
+defaultContentLanguage = 'de'
+
+[languages]
+  [languages.de]
+    locale = 'de-DE'
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+
+  [markup.goldmark.renderer]
+    unsafe = true
+
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = false
+
+[menu]
+  [[menu.main]]
+    pageRef = '/'
+    name = 'Home'
+    url = '/'
+    weight = 10
+
+  [[menu.main]]
+    pageRef = 'cv'
+    name = 'CV'
+    url = '/cv/'
+    weight = 20
+
+  [[menu.main]]
+    pageRef = 'projects'
+    name = 'Projects'
+    url = '/projects/'
+    weight = 30
+
+[params]
+  sitename = 'Jelko Arnds'
+  disableKinds = ["RSS"]
+
+  [params.author]
+    intro = 'Jelko Arnds'
+    name = 'Jelko Arnds'
+    email = 'work@jelkoarnds.com'
+
+[[params.socialIcons]]
+  name = 'github'
+  url = 'https://github.com/jelko'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
