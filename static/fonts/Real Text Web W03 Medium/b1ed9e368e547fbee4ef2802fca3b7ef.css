@@ -1,0 +1,13 @@
+@font-face{
+    font-family: "Real Text Web W03 Medium";
+    src: url("b1ed9e368e547fbee4ef2802fca3b7ef.eot");
+    src: url("b1ed9e368e547fbee4ef2802fca3b7ef.eot?#iefix")format("embedded-opentype"),
+        url("b1ed9e368e547fbee4ef2802fca3b7ef.woff")format("woff"),
+        url("b1ed9e368e547fbee4ef2802fca3b7ef.woff2")format("woff2"),
+        url("b1ed9e368e547fbee4ef2802fca3b7ef.ttf")format("truetype"),
+        url("b1ed9e368e547fbee4ef2802fca3b7ef.svg#Real Text Web W03 Medium")format("svg");
+    font-weight:normal;
+    font-style:normal;
+    font-display:swap;
+}
+ 

@@ -5,5 +5,20 @@
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
 <link rel="canonical" href="{{ .Permalink }}">
 <link rel="stylesheet" href="{{ "css/site.css" | relURL }}">
-<link href="https://db.onlinewebfonts.com/c/a5b11f3d079234b5f957fa0a522c52b4?family=Real+Text+Web+W03+Regular" rel="stylesheet" type="text/css"/>
-<link href="https://db.onlinewebfonts.com/c/b1ed9e368e547fbee4ef2802fca3b7ef?family=Real+Text+Web+W03+Medium" rel="stylesheet" type="text/css"/>
+<link href="fonts/Real Text Web W03 Regular/a5b11f3d079234b5f957fa0a522c52b4.css?family=Real+Text+Web+W03+Regular" rel="stylesheet" type="text/css"/>
+<link href="fonts/Real Text Web W03 Medium/b1ed9e368e547fbee4ef2802fca3b7ef.css?family=Real+Text+Web+W03+Medium" rel="stylesheet" type="text/css"/>
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//analytics.jelkoarnds.com/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
